@@ -1,0 +1,6 @@
+@mixin large-breakpoint {
+
+    @media (max-width: $breakpoint-lg){
+        @content;
+    } 
+}

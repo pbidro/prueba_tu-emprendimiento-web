@@ -1,0 +1,240 @@
+// grilla manual
+
+.container_grid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    /* no hace aporte padding-right:15px;*/
+    }
+    
+    @media only screen and (min-width: 768px){
+       
+        .container_grid{
+            width: 750px;
+        }
+    }
+    
+    @media only screen and (min-width: 992px){
+       
+        .container_grid{
+            width: 970px;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px){
+       
+        .container_grid{
+            width: 1770px;
+        }
+    }
+    
+    .row_grid {
+        display: grid;
+         grid-template-columns: repeat(12, 1fr);
+    
+    }
+    
+    .col_grid-xs-12 {
+        grid-column: span 12;
+    }
+    
+    .col_grid-xs-11 {
+        grid-column: span 11;
+    
+    }
+    
+    .col_grid-xs-10 {
+        grid-column: span 10;
+    }
+    
+    .col_grid-xs-9{
+        grid-column: span 9;
+    }
+    
+    .col_grid-xs-8 {
+        grid-column: span 8;
+    }
+    
+    .col_grid-xs-7{
+        grid-column: span 7;
+    }
+    
+    .col_grid-xs-6{
+        grid-column: span 6;
+    }
+    
+    .col_grid-xs-5{
+        grid-column: span 5;
+    }
+    
+    .col_grid-xs-4 {
+        grid-column: span 4;
+    }
+    
+    .col_grid-xs-3{
+        grid-column: span 3;
+    }
+    
+    .col_grid-xs-2{
+        grid-column: span 2;
+    }
+    
+    .col_grid-xs-1{
+        grid-column: span 1;
+    }
+    
+    @media only screen and (min-width: 768px){
+        
+        .col_grid-sm-12 {
+            grid-column: span 12;
+        }
+        
+        .col_grid-sm-11 {
+            grid-column: span 11;
+        
+        }
+        
+        .col_grid-sm-10 {
+            grid-column: span 10;
+        }
+        
+        .col_grid-sm-9{
+            grid-column: span 9;
+        }
+        
+        .col_grid-sm-8 {
+            grid-column: span 8;
+        }
+        
+        .col_grid-sm-7{
+            grid-column: span 7;
+        }
+        
+        .col_grid-sm-6{
+            grid-column: span 6;
+        }
+        
+        .col_grid-sm-5{
+            grid-column: span 5;
+        }
+        
+        .col_grid-sm-4 {
+            grid-column: span 4;
+        }
+        
+        .col_grid-sm-3{
+            grid-column: span 3;
+        }
+        
+        .col_grid-sm-2{
+            grid-column: span 2;
+        }
+        
+        .col_grid-sm-1{
+            grid-column: span 1;
+        }
+    }
+    
+    @media only screen and (min-width: 992px){
+        
+        .col_grid-md-12 {
+            grid-column: span 12;
+        }
+        
+        .col_grid-md-11 {
+            grid-column: span 11;
+        
+        }
+        
+        .col_grid-md-10 {
+            grid-column: span 10;
+        }
+        
+        .col_grid-md-9{
+            grid-column: span 9;
+        }
+        
+        .col_grid-md-8 {
+            grid-column: span 8;
+        }
+        
+        .col_grid-md-7{
+            grid-column: span 7;
+        }
+        
+        .col_grid-md-6{
+            grid-column: span 6;
+        }
+        
+        .col_grid-md-5{
+            grid-column: span 5;
+        }
+        
+        .col_grid-md-4 {
+            grid-column: span 4;
+        }
+        
+        .col_grid-md-3{
+            grid-column: span 3;
+        }
+        
+        .col_grid-md-2{
+            grid-column: span 2;
+        }
+        
+        .col_grid-md-1{
+            grid-column: span 1;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px){
+        
+        .col_grid-lg-12 {
+            grid-column: span 12;
+        }
+        
+        .col_grid-lg-11 {
+            grid-column: span 11;
+        
+        }
+        
+        .col_grid-lg-10 {
+            grid-column: span 10;
+        }
+        
+        .col_grid-lg-9{
+            grid-column: span 9;
+        }
+        
+        .col_grid-lg-8 {
+            grid-column: span 8;
+        }
+        
+        .col_grid-lg-7{
+            grid-column: span 7;
+        }
+        
+        .col_grid-lg-6{
+            grid-column: span 6;
+        }
+        
+        .col_grid-lg-5{
+            grid-column: span 5;
+        }
+        
+        .col_grid-lg-4 {
+            grid-column: span 4;
+        }
+        
+        .col_grid-lg-3{
+            grid-column: span 3;
+        }
+        
+        .col_grid-lg-2{
+            grid-column: span 2;
+        }
+        
+        .col_grid-lg-1{
+            grid-column: span 1;
+        }
+    }
