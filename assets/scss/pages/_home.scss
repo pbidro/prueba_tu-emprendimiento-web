@@ -17,93 +17,9 @@
 .content {
     padding: 1rem;
 }
-.course {
-    border: 1px solid black;
-    width: 99%;
 
-    &__post {
-        width: 100%;
-        padding: 1rem;
-        border: 1px solid black;
-        text-align: justify;
-        letter-spacing: 0.05rem;
-        margin-bottom: 10px;
-    }
 
-    &__box {
-    }
 
-    &__header {
-        img {
-            width: 100%;
-        }
-    }
-    &__title,
-    &__instructor {
-        padding-top: 0.6rem;
-        padding-bottom: 1rem;
-    }
-}
 
-.about {
-    width: 99%;
-    text-align: justify;
-    letter-spacing: 0.05rem;
-    border: 1px solid black;
 
-    &__company {
-        height: 100%;
-        padding: 3rem;
-        margin-bottom: 1rem;
-    }
 
-    &__avatar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img {
-            border-radius: 100%;
-
-            border: 1px solid $black;
-            width: 70%;
-        }
-        @include large-breakpoint {
-            img {
-                width: 40%;
-            }
-        }
-    }
-
-    &__name{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding:1rem;
-    }
-
-    &__rrss{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom:1rem;
-    }
-
-    &__separator{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color:gray;
-        padding:0.5rem;
-        font-weight:700;
-        color:$white;
-    }
-
-    &__list{
-        padding-left: 1rem;
-        list-style:armenian;
-    }
-}
-
-.padding {
-    padding: 1rem;
-}

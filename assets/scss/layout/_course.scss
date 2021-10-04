@@ -1,0 +1,27 @@
+.course {
+    border: 1px solid black;
+    width: 99%;
+
+    &__post {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid black;
+        text-align: justify;
+        letter-spacing: 0.05rem;
+        margin-bottom: 10px;
+    }
+
+    &__box {
+    }
+
+    &__header {
+        img {
+            width: 100%;
+        }
+    }
+    &__title,
+    &__instructor {
+        padding-top: 0.6rem;
+        padding-bottom: 1rem;
+    }
+}

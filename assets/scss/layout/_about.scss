@@ -1,0 +1,81 @@
+.about {
+    width: 99%;
+    text-align: justify;
+    letter-spacing: 0.05rem;
+    border: 1px solid black;
+
+
+    &__animation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        padding-top: 2rem;
+    }
+    &__draw{
+        width: 100%;
+        
+        width: 50%;
+    }
+    &__company {
+        height: 100%;
+        padding: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    &__avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            border-radius: 100%;
+
+            border: 1px solid $black;
+            width: 70%;
+        }
+        @include large-breakpoint {
+            img {
+                width: 40%;
+            }
+        }
+    }
+
+    &__name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    &__rrss {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+        & i {
+            padding-left: 1rem;
+        }
+    }
+
+    &__separator {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: gray;
+        padding: 0.5rem;
+        font-weight: 700;
+        color: $white;
+    }
+
+    &__list {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        li {
+            list-style-type: circle;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}

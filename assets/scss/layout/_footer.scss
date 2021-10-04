@@ -1,0 +1,73 @@
+.footer {
+    background-color: $black;
+    color: $white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+        li {
+            
+            list-style: none;
+        }
+    }
+
+    &__links {
+
+        a {
+            text-decoration: none;
+            color: $white;
+            padding: 0.5rem;
+        }
+    }
+    &__input {
+        input {
+            border-radius: 0.1rem;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        border-radius: 0.2rem;
+        height: 25px;
+        background-color: $orange;
+        a{
+            padding:1rem;
+            color: $black;
+        }
+        &:hover{
+            background-color: $tangerine;
+        }
+    }
+
+    @include large-breakpoint {
+        flex-direction: column;
+
+        &__list,&__list ul{
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &__list ul li a{
+        padding: 1rem;
+        }
+    }
+
+    
+}
