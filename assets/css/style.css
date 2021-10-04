@@ -127,6 +127,7 @@ input[type=checkbox]:checked ~ .navigation__list {
 
 .col_grid-xs-12 {
   grid-column: span 12;
+  margin-top: 10px;
 }
 
 .col_grid-xs-11 {
@@ -339,13 +340,16 @@ input[type=checkbox]:checked ~ .navigation__list {
   padding: 1rem;
 }
 
+.course {
+  border: 1px solid black;
+  width: 99%;
+}
 .course__post {
   width: 100%;
-  padding: 3rem;
+  padding: 1rem;
   border: 1px solid black;
   text-align: justify;
   letter-spacing: 0.05rem;
-  height: 100%;
   margin-bottom: 10px;
 }
 .course__header img {
@@ -357,15 +361,15 @@ input[type=checkbox]:checked ~ .navigation__list {
 }
 
 .about {
-  width: 100%;
+  width: 99%;
   text-align: justify;
   letter-spacing: 0.05rem;
+  border: 1px solid black;
 }
 .about__company {
   height: 100%;
   padding: 3rem;
   margin-bottom: 1rem;
-  border: 1px solid black;
 }
 .about__avatar {
   display: flex;
@@ -376,6 +380,40 @@ input[type=checkbox]:checked ~ .navigation__list {
   border-radius: 100%;
   border: 1px solid #000000;
   width: 70%;
+}
+@media (max-width: 991px) {
+  .about__avatar img {
+    width: 40%;
+  }
+}
+.about__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.about__rrss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.about__separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  padding: 0.5rem;
+  font-weight: 700;
+  color: #FFF;
+}
+.about__list {
+  padding-left: 1rem;
+  list-style: armenian;
+}
+
+.padding {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
