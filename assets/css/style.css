@@ -6,11 +6,11 @@
 }
 
 body {
-  font-family: "Raleway", serif;
+  font-family: "ubuntu", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Old Standard TT", serif;
+  font-family: "poppins", sans-serif;
 }
 
 .navigation {
@@ -333,6 +333,49 @@ input[type=checkbox]:checked ~ .navigation__list {
   .banner img {
     width: 100%;
   }
+}
+
+.content {
+  padding: 1rem;
+}
+
+.course__post {
+  width: 100%;
+  padding: 3rem;
+  border: 1px solid black;
+  text-align: justify;
+  letter-spacing: 0.05rem;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.course__header img {
+  width: 100%;
+}
+.course__title, .course__instructor {
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
+}
+
+.about {
+  width: 100%;
+  text-align: justify;
+  letter-spacing: 0.05rem;
+}
+.about__company {
+  height: 100%;
+  padding: 3rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+}
+.about__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about__avatar img {
+  border-radius: 100%;
+  border: 1px solid #000000;
+  width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */
